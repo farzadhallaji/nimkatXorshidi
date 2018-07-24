@@ -4,13 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.CountDownTimer;
-import android.provider.SyncStateContract;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
@@ -240,20 +236,33 @@ public class WebPageActivity extends AppCompatActivity {
                 .showMenuShareVia(false)
                 .webViewBuiltInZoomControls(true)
                 .webViewDisplayZoomControls(true)
+                .webViewSupportZoom(true)
+                .showMenuCopyLink(false)
                 .setWebViewListener(new WebViewListener() {
                     @Override
                     public void onPageStarted(String url) {
                         super.onPageStarted(url);
-
                     }
 
                     @Override
                     public void onPageFinished(String url) {
                         super.onPageFinished(url);
-
                     }
-
                 });
+//                .setWebViewListener(new WebViewListener()
+//                    @Override
+//                    public void onPageStarted(String url) {
+//                        super.onPageStarted(url);
+//
+//                    }
+//
+//                    @Override
+//                    public void onPageFinished(String url) {
+//                        super.onPageFinished(url);
+//
+//                    }
+//
+//                });
         builder.show(Urll);
 
 

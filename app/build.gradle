@@ -28,9 +28,12 @@ dependencies {
 
     api 'com.ramotion.circlemenu:circle-menu:0.3.1'
     compile 'com.thefinestartist:finestwebview:1.2.7'
-    compile 'com.nightonke:boommenu:2.1.1'
-    compile 'org.wlf:FileDownloader:0.3.2'
-    compile 'com.mindorks.android:prdownloader:0.4.0'
-    compile 'com.loopj.android:android-async-http:1.4.9'
+    api 'com.nightonke:boommenu:2.1.1'
+    api 'org.wlf:FileDownloader:0.3.2'
+    api 'com.mindorks.android:prdownloader:0.4.0'
+    api 'com.loopj.android:android-async-http:1.4.9'
     implementation 'com.jsibbold:zoomage:1.1.0'
+
+//    api 'zh.wang.android:yweathergetter4a:1.3.0'
+
 }
