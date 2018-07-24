@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativelayoutactivity5"
+    android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+    android:layout_height="match_parent"
+    tools:context=".AxActivity">
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/metro"
+        android:id="@+id/imageView"
+        app:zoomage_restrictBounds="false"
+        app:zoomage_animateOnReset="true"
+        app:zoomage_autoResetMode="UNDER"
+        app:zoomage_autoCenter="true"
+        app:zoomage_zoomable="true"
+        android:padding="20dp"
+        app:zoomage_translatable="true"
+        app:zoomage_minScale="0.6"
+        app:zoomage_maxScale="8"
+        />
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        app:bmb_normalColor="#609fe1"
+        android:layout_width="72dp"
+        android:layout_height="77dp"
+        />
+
+</RelativeLayout>

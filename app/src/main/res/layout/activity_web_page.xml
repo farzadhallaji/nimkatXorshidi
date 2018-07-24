@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:noHistory="true"
+    android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+    android:layout_height="match_parent"
+    tools:context=".WebPageActivity">
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        app:bmb_normalColor="#609fe1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        />
+</RelativeLayout>
