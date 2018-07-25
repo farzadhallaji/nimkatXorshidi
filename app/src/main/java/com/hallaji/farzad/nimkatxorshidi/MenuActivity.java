@@ -99,20 +99,20 @@ public class MenuActivity extends AppCompatActivity {
 
                 finish();
                 switch (index){
-                    case  0 :
-                        Bundle mBundle = new Bundle();
-                        mBundle.putString("url", "http://www.havairan.com/");
-                        Intent intent0 = new Intent(getApplication() , WebPageActivity.class);
-                        intent0.putExtras(mBundle);
-                        startActivity(intent0);
-                        countDownTimer.cancel();
-                        break;
 //                    case  0 :
-//                        Intent intent0 = new Intent(getApplication() , com.hallaji.farzad.ehsan.w3bshark.activities.MainActivity.class);
+//                        Bundle mBundle = new Bundle();
+//                        mBundle.putString("url", "http://www.havairan.com/");
+//                        Intent intent0 = new Intent(getApplication() , WebPageActivity.class);
+//                        intent0.putExtras(mBundle);
 //                        startActivity(intent0);
 //                        countDownTimer.cancel();
 //                        break;
-//
+                    case  0 :
+                        Intent intent0 = new Intent(getApplication() , CitiesActivity.class);
+                        startActivity(intent0);
+                        countDownTimer.cancel();
+                        break;
+
                     case  1 :
                         Bundle mBundle1 = new Bundle();
                         mBundle1.putString("url", "http://techpark.ir/?login=true");

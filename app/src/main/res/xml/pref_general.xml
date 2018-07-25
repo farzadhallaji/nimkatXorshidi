@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_general_key"
+        android:title="@string/pref_header_general">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_use_current_location_key"
+            android:summary="@string/pref_enable_location_summary"
+            android:title="@string/pref_enable_location_title" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_unit_default_value"
+            android:entries="@array/arr_units_names"
+            android:entryValues="@array/arr_units_values"
+            android:key="@string/pref_unit_key"
+            android:title="@string/pref_unit_title" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_sync_default_value"
+            android:entries="@array/arr_sync_names"
+            android:entryValues="@array/arr_sync_values"
+            android:key="@string/pref_sync_key"
+            android:title="@string/pref_sync_title" />
+        <ListPreference
+            android:defaultValue="@string/pref_lang_default_value"
+            android:entries="@array/arr_lang_names"
+            android:entryValues="@array/arr_lang_values"
+            android:key="@string/pref_selected_lang_key"
+            android:title="@string/pref_lang_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

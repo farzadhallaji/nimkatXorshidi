@@ -1,3 +1,66 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">nimkatXorshidi</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="could_not_find_a_city">Could not find a city. Try another name</string>
+    <string name="start_typing">Start typing the name of the city</string>
+    <string name="select_city">To view weather select a city</string>
+
+    <string name="format_wind">Wind:<xliff:g id="speed">1%.0f</xliff:g> <xliff:g id="unit">%2$s</xliff:g>, <xliff:g id="dir">%3$s</xliff:g></string>
+    <string name="format_wind_hourly" translatable="false"><xliff:g id="speed">1%.0f</xliff:g> <xliff:g id="unit">%2$s</xliff:g>, <xliff:g id="dir">%3$s</xliff:g></string>
+    <string name="temperature_plus">Temperature: +%.1f <xliff:g id="unit">%2$s</xliff:g></string>
+    <string name="temperature_minus">Temperature: %.1f <xliff:g id="unit">%2$s</xliff:g></string>
+    <string name="format_humidity">Humidity: %d%%</string>
+    <string name="format_humidity_hourly">%d%% humidity</string>
+    <string name="format_pressure">Pressure: %.0f <xliff:g id="pressure">%2$s</xliff:g></string>
+    <string name="format_pressure_hourly" translatable="false">%.0f <xliff:g id="pressure">%2$s</xliff:g></string>
+    <string name="format_temp_plus" translatable="false">+%.1f <xliff:g id="unit">%2$s</xliff:g></string>
+    <string name="format_temp_minus" translatable="false">%.1f <xliff:g id="unit">%2$s</xliff:g></string>
+    <string name="permission_denied" translatable="false">Permission denied!</string>
+    <string name="no_internet" translatable="false">No Internet connection available…</string>
+    <string name="image_description" translatable="false">Image</string>
+    <string name="error">Error</string>
+    <string name="error_load_data">Oops… Something went wrong</string>
+    <string name="failed_to_load_weather">Failed to load weather</string>
+    <string name="city_caption">City: </string>
+    <string name="country_caption">Country: </string>
+    <string name="action_search">Search</string>
+    <string name="about">About</string>
+    <string name="about_content" translatable="false">
+        <![CDATA[
+        API:
+        <br><a href="https://www.apixu.com/api.aspx">https://www.apixu.com/api</a>
+        <br><a href="http://www.geonames.org">http://www.geonames.org/</a>
+        <br><br>Images:
+        <br>Icon weather set made by apixu from <a href="https://www.apixu.com/api.aspx"</a>
+        <br><br>Libraries:
+        <br> <a href="https://square.github.io/retrofit/">retrofit2</a>
+        <br> <a href="https://github.com/square/okhttp">okhttp3</a>
+        <br> <a href="http://greenrobot.org/greendao/">greendao</a>
+        <br> <a href="https://github.com/facebook/fresco/">fresco</a>
+        <br> <a href="https://developer.android.com/topic/libraries/support-library/index.html">support</a>
+        <br> <a href="https://developer.android.com/training/testing/ui-testing/espresso-testing.html">espresso</a>
+        <br><br>Source code:
+        <br> <a href="https://github.com/graviton57/weather">https://github.com/graviton57/weather</a>
+        ]]>
+    </string>
+    <!-- Strings related to Widgets -->
+    <string name="title_widget_today">Weather Today</string>
+    <!-- Strings for formatting weather-related data -->
+    <string name="format_widget_temperature" translatable="false"><xliff:g id="temp">%1.0f</xliff:g><xliff:g id="unit">%2$s</xliff:g></string>
+    <!-- Strings strings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_use_current_location_key" translatable="false">pref_enable_lacation_key</string>
+    <string name="pref_enable_location_summary">Enable locations</string>
+    <string name="pref_enable_location_title">My locations</string>
+    <string name="pref_general_key" translatable="false">pref_general_key</string>
+    <string name="pref_unit_key" translatable="false">pref_unit_key</string>
+    <string name="pref_unit_title">Measure units</string>
+    <string name="pref_sync_title">Data update period</string>
+    <string name="pref_sync_key" translatable="false">pref_sync_key</string>
+    <string name="pref_selected_lang_key" translatable="false">pref_selected_lang_key</string>
+    <string name="pref_lang_title">Language</string>
+    <string name="unknown_location">Unknown city</string>
+
+
 </resources>
