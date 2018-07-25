@@ -1,0 +1,6 @@
+ext {
+        BASE_WEATHER_URL = "http://api.apixu.com/v1/"
+        BASE_GEONAME_URL= "http://api.geonames.org/"
+        GEONAME_API_KEY= "farz"
+        WEATHER_API_KEY = "8b30ba6d1e054ab680874233182507"
+}
