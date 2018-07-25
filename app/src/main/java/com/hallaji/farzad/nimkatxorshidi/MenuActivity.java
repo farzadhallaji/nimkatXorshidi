@@ -108,7 +108,7 @@ public class MenuActivity extends AppCompatActivity {
 //                        countDownTimer.cancel();
 //                        break;
                     case  0 :
-                        Intent intent0 = new Intent(getApplication() , CitiesActivity.class);
+                        Intent intent0 = new Intent(getApplication() , WeatherActivity.class);
                         startActivity(intent0);
                         countDownTimer.cancel();
                         break;

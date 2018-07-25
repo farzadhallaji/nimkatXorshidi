@@ -60,7 +60,7 @@
             android:name=".service.LocationService"
             android:exported="false" />
 
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".WeatherActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".AddCityActivity"></activity>
     </application>
